@@ -5,7 +5,7 @@
 Open Powershell:
 npm install -g @vue/cli
 
-In directory above DADL directory:
+In DADL directory:
 npm install vue
 ```
 
