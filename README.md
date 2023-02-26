@@ -2,11 +2,16 @@
 
 ## Project setup
 ```
-npm install
+Open Powershell:
+npm install -g @vue/cli
+
+In directory above DADL directory:
+npm install vue
 ```
 
 ### Compiles and hot-reloads for development
 ```
+cd DADL
 npm run serve
 ```
 
