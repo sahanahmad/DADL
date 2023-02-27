@@ -1,24 +1,35 @@
 <template>
     <div class="hello">
     
-
+    <!-- This header displays the 'Data Analytics and Deep Learning Lab' text. It can be modified in App.vue -->
     <h1>{{ msg }}</h1>
 
-    <img alt="Vue logo" src="../assets/logo.png">
+    
+    <!-- Displays the DADL Logo on the homepage  -->
+    <img alt="DADL Logo" src="../assets/logo.png">
 
 
+    <!-- Area for broader explanations of project  -->
     <p>
       This would be the section for an explanation of the lab and the broader application areas.
     </p>
+
+    <!-- The Application areas will provide insight into the uses of the technology.
+    There will likely be image and paragraph sections for each application area. -->
     <h2>Application Areas</h2>
-    <ul>
+    <p>
       Here we will go more indepth into each application area, perhaps providing image along with a small paragraph of text.
-    </ul>
+    </p>
+
+    <!-- The Recent News section should contain hyperlinks to relevant articles/blogs. There maybe text accompanying each article title, but
+    each link should ideally be sorted by the date of the article's creation  -->
     <h2>Recent News</h2>
-    <ul>
+    <p>
       Here we would have links related to news articles and blog posts about progress directly in the lab or the Deep Learning field.
-    </ul>
-    
+    </p>
+
+
+    <!-- The footer will contain sections where a user can find links to Github, relevant social medias and contact information -->
     <h3>Footer Placeholders</h3>
 
     <footer>

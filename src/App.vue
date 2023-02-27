@@ -1,4 +1,6 @@
 <template>
+
+  <!-- This menu class currently contains the code for the navbar at the top. This will need to be adjusted in the future.  -->
   <ul class="menu">
     <div
       class="menu-indicator"
@@ -22,17 +24,18 @@
     </li>
   </ul> 
 
-  <HelloWorld msg="Data Analytics and Deep Learning Lab"/>
+  <!-- Msg text used for Lab title  -->
+  <Home msg="Data Analytics and Deep Learning Lab"/>
   
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Home
   },
   data() {
     return {
