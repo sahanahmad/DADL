@@ -17,7 +17,7 @@ function App() {
     <h1>Data Analytics and Deep Learning Lab</h1>
 
       {/* Displays the DADL Logo on the homepage  */}
-      <img src={require("./logo.png")}>
+      <img src={require("./assets/logo.png")}>
       </img>
     
       {/* -- Area for broader explanations of project  */}
