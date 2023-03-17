@@ -4,6 +4,16 @@ function App() {
   return (
     <div className="App">
 
+      {/* Temporary Navbar untill CSS added  */}
+      <header>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="people">People</a></li>
+          <li><a href="/">Research</a></li>
+          <li><a href="/">Publictaions</a></li>
+        </ul>
+      </header>
+
     <h1>Data Analytics and Deep Learning Lab</h1>
 
       {/* Displays the DADL Logo on the homepage  */}
