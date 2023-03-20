@@ -16,7 +16,23 @@ function PeoplePage() {
 
         <h1>People</h1>
 
+        <img src={require("../assets/groupPlaceholder.png")}></img>
+
         {/* Need to split profile sections into Professors, Grad Students and Undergrad Students */}
+
+
+        <h2>Principal Investigator</h2>
+        {/* Section for the bio of a lab participant  */}
+        <h3>Name Placeholder</h3> {/* Name  */}
+        <img src={require("../assets/portrait.png")} width="200" height="200">
+        </img>
+        <p>This section be used for a lab participant's bio and relation to the project</p> {/* Bio */}
+        <ul>
+          <li><a href="/people"><img src={require("../assets/github.png")} width="25" height="25"></img></a></li> {/* Github Link */}
+          <li><a href="/people"><img src={require("../assets/linkedin.png")} width="25" height="25"></img></a></li> {/* LinkedIn Link */}
+        </ul>
+
+        <h2>Graduate Students</h2>
 
         <div class="row">
           <div class="column">
@@ -64,8 +80,11 @@ function PeoplePage() {
             </ul>
 
           </div>
+        </div>
 
-          {/* -- The footer will contain sections where a user can find links to Github, relevant social medias and contact information */}
+        <h2>Alumni</h2>
+
+        {/* -- The footer will contain sections where a user can find links to Github, relevant social medias and contact information */}
           <h3>Footer Placeholders</h3>
           <footer>
               <ul>
@@ -75,8 +94,6 @@ function PeoplePage() {
                 <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">Contact Information</a></li>
               </ul>
             </footer>
-        </div>
-
 
     </div>
   )
