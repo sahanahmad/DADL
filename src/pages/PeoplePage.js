@@ -10,11 +10,13 @@ function PeoplePage() {
             <li><a href="/">Home</a></li>
             <li><a href="people">People</a></li>
             <li><a href="/">Research</a></li>
-            <li><a href="/">Publictaions</a></li>
+            <li><a href="/">Publications</a></li>
           </ul>
         </header>
 
         <h1>People</h1>
+
+        {/* Need to split profile sections into Professors, Grad Students and Undergrad Students */}
 
         <div class="row">
           <div class="column">

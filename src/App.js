@@ -10,7 +10,7 @@ function App() {
           <li><a href="/">Home</a></li>
           <li><a href="people">People</a></li>
           <li><a href="/">Research</a></li>
-          <li><a href="/">Publictaions</a></li>
+          <li><a href="/">Publications</a></li>
         </ul>
       </header>
 
