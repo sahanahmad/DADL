@@ -1,9 +1,11 @@
 import './App.css';
+import Header from './Header';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-
+      <Header />
       {/* Temporary Navbar untill CSS added  */}
       <header>
         <ul>
@@ -51,6 +53,7 @@ function App() {
           <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">Contact Information</a></li>
         </ul>
       </footer>
+      <Footer />
     </div>
   );
 }

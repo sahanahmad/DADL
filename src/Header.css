@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    top: 0px;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.header__container{
+    background-color: #8b0606;
+}
+
+.header__logo{
+    object-fit: contain;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.header__home:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.header__people:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.header__research:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.header__publications:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

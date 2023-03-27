@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    color: #777777;
+    border-top: 2px solid #8b0606;
+}
+
+.footer__github:hover{
+    color: #8b0606;
+}
+
+.footer__twitter:hover{
+    color: #8b0606;
+}
+
+.footer__visit:hover{
+    color: #8b0606;
+}
+
+.footer__contact:hover{
+    color: #8b0606;
+}
