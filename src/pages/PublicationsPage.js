@@ -30,7 +30,7 @@ const PublicationList = ({ publications }) => {
     <div class = "pageContent">
       <h2>PUBLICATIONS</h2>
       {years.map((year) => (
-        <span><a href = "#{year}"> {year} </a>|</span>
+        <span><a href = {'#'+year}> {year} </a>|</span>
 
       ))}
 
