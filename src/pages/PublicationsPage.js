@@ -50,14 +50,15 @@ const PublicationList = ({ publications }) => {
                     </a>
                     ]
                   </span>
+                  {selectedBibTex === pub.bibtex && (
+                  <div className="bibTexDropdown">
+                    <button onClick={() => setSelectedBibTex(null)}>Close</button>
+                    <pre>{selectedBibTex}</pre>
+                  </div>
+                  )}
                 </li>
+                
               ))}
-              {selectedBibTex && (
-                <div className="bibTexDropdown">
-                  <button onClick={() => setSelectedBibTex(null)}>Close</button>
-                  <pre>{selectedBibTex}</pre>
-                </div>
-              )}
           </ul>
         </div>
       ))}
@@ -135,7 +136,7 @@ const publication = [
     id: 5,
     year: 2019,
     title: "Database Gyms",
-    citation: "W. S. Lim, M. Butrovich, W. Zhang, A. Crotty, L. Ma, P. Xu, J. Gehrke, and A. Pavlo, 'Database Gyms,' in CIDR 2023, Conference on Innovative Data Systems Research, 2023." ,
+    citation: "W. S. Lim, M. Butrovich, W. Zhang, A. Crotty, L. Ma, P. Xu, J. Gehrke, and A. Pavlo, 'Dase Gyms,' in CIDR 2023, Conference on Innovative Data Systems Research, 2023." ,
     pdfUrl: "https://example.com/database-gyms.pdf",
     bibtex:
       "@inproceedings{lim2023database,\n  title={atabase Gyms},\n  author={Lim, W. S. and Butrovich, M. and Zhang, W. and Crotty, A. and Ma, L. and Xu, P. and Gehrke, J. and Pavlo, A.},\n  booktitle={CIDR 2023, Conference on Innovative Data Systems Research},\n  year={2023}\n}",
