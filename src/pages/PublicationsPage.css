@@ -1,0 +1,31 @@
+.PublicationsPage {
+    text-align: center;
+  }
+  
+.pageContent {
+  text-align: left;
+  padding-top: 20px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+}
+  
+.yearsSection {
+  padding-right: 800px;
+}
+
+.bibTexDropdown {
+  background-color: rgb(199, 199, 199);
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

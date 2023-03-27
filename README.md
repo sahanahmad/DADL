@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Project Installs
+'npm install react-router-dom'
+Version 6.9.0
+
 In the project directory, you can run:
 
 ### `npm start`
